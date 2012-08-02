@@ -3,9 +3,9 @@ require File.expand_path('../lib/enju_statistics/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Emiko TAMIYA"]
-  gem.email         = ["emiko.tamiya@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["emiko@opentech.co.jp"]
+  gem.description   = %q{Calculator for enju statistics}
+  gem.summary       = %q{to calculate enju statistics}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "enju_statistics"
   gem.require_paths = ["lib"]
   gem.version       = EnjuStatistics::VERSION
+
+  gem.add_development_dependency "rspec"
 end
