@@ -1,5 +1,6 @@
 require "enju_statistics/version"
-
+require "enju_statistics/statistic"
 module EnjuStatistics
-  # Your code goes here...
+  class Statistic
+  end
 end
